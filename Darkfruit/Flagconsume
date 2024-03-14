@@ -1,0 +1,315 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Title of the library", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local MainTab = Window:MakeTab({
+	Name = "04 account",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+MainTab:AddButton({
+	Name = "Button!",
+	Callback = function()
+      		while true do
+                local args = {
+    [1] = "Breakable Sprinkler",
+    [2] = "909e6b8d9216446a86f8ac0b156aa143"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Sprinklers: Consume"):InvokeServer(unpack(args))
+                wait(301)
+            end
+  	end    
+})
+
+MainTab:AddButton({
+	Name = "Button!",
+	Callback = function()
+      		while true do 
+                local args = {
+    [1] = "88360de74f7340b1b775ff5f8042a423"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("MiniPinata_Consume"):InvokeServer(unpack(args))
+                wait(80)
+            end
+  	end    
+})
+
+MainTab:AddButton({
+	Name = "Button!",
+	Callback = function()
+      		while true do 
+                local args = {
+    [1] = "Diamonds Flag",
+    [2] = "2d00986327e846e8b8c67d852bbc0734"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Flags: Consume"):InvokeServer(unpack(args))
+                wait(301)
+            end
+  	end    
+})
+
+MainTab:AddButton({
+	Name = "Button!",
+	Callback = function()
+      		while true do
+                local args = {
+    [1] = "48fd3619857942b8bac12f9f8ea5783b",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Fruits: Consume"):FireServer(unpack(args))
+                wait(301)
+            end
+  	end    
+})
+
+MainTab:AddButton({
+	Name = "Button!",
+	Callback = function()
+      		while true do
+                local args = {
+    [1] = "435b2d36222f4bf9a4f265540d46a9cb",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Fruits: Consume"):FireServer(unpack(args))
+                wait(301)
+            end
+  	end    
+})
+
+MainTab:AddButton({
+	Name = "Button!",
+	Callback = function()
+      		while true do
+                local args = {
+    [1] = "5a12983531b34672ac3ac0624b538f42",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Fruits: Consume"):FireServer(unpack(args))
+                wait(301)
+            end
+  	end    
+})
+
+MainTab:AddButton({
+	Name = "Button!",
+	Callback = function()
+      		while true do
+                local args = {
+    [1] = "c824cd3e92b049a0a32431909bd0f271",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Fruits: Consume"):FireServer(unpack(args))
+                wait(301)
+            end
+  	end    
+})
+
+
+local Main01Tab = Window:MakeTab({
+	Name = "01 account",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+Main01Tab:AddButton({
+	Name = "Button!",
+	Callback = function()
+      		while true do
+                local args = {
+    [1] = "Breakable Sprinkler",
+    [2] = "9ffb70dbd03b47e2b4476d166db95ec7"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Sprinklers: Consume"):InvokeServer(unpack(args))
+                wait(301)
+            end
+                
+  	end    
+})
+
+Main01Tab:AddButton({
+	Name = "Button!",
+	Callback = function()
+      		while true do
+                local args = {
+    [1] = "Diamonds Flag",
+    [2] = "fef063d594e9460ebe89529c7a311d92"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Flags: Consume"):InvokeServer(unpack(args))
+                wait(301)
+            end
+  	end    
+})
+
+Main01Tab:AddButton({
+	Name = "Button!",
+	Callback = function()
+      		while true do
+                local args = {
+    [1] = "4ea9958e342c406c9829a8bf9d2bb26c",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Fruits: Consume"):FireServer(unpack(args))
+                wait(301)
+            end
+  	end    
+})
+
+Main01Tab:AddButton({
+	Name = "Button!",
+	Callback = function()
+      		while true do
+                local args = {
+    [1] = "426cca21f97a487da27db5c8e77a45cf",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Fruits: Consume"):FireServer(unpack(args))
+                wait(301)
+            end
+                
+  	end    
+})
+
+Main01Tab:AddButton({
+	Name = "Button!",
+	Callback = function()
+      		while true do 
+                local args = {
+    [1] = "f378c8f252a8424c900ed40f1f587219",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Fruits: Consume"):FireServer(unpack(args))
+                wait(301)
+            end
+  	end    
+})
+
+Main01Tab:AddButton({
+	Name = "Button!",
+	Callback = function()
+      		while true do
+                local args = {
+    [1] = "0a077234ecb54d7ab3f0ac0925174917",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Fruits: Consume"):FireServer(unpack(args))
+                wait(301)
+            end
+               
+  	end    
+})
+
+local farm01Tab = Window:MakeTab({
+	Name = "farm01",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+farm01Tab:AddButton({
+	Name = "Button!",
+	Callback = function()
+      		while true do
+                local args = {
+    [1] = "Breakable Sprinkler",
+    [2] = "7b956d4cce6f44999b033f35140b6472"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Sprinklers: Consume"):InvokeServer(unpack(args))
+                wait(301)
+            end
+  	end    
+})
+
+farm01Tab:AddButton({
+	Name = "Button!",
+	Callback = function()
+      		while true do
+                local args = {
+    [1] = "Diamonds Flag",
+    [2] = "953f149ff1954c3a8475bc0f2732702d"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Flags: Consume"):InvokeServer(unpack(args))
+                wait(301)
+            end
+  	end    
+})
+
+ farm01Tab:AddButton({
+	Name = "Button!",
+	Callback = function()
+      		while true do
+                local args = {
+    [1] = "f60046da4356447785cfaf6961d95880",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Fruits: Consume"):FireServer(unpack(args))
+                wait(301)
+            end
+  	end    
+})
+
+
+farm01Tab:AddButton({
+	Name = "Button!",
+	Callback = function()
+      		while true do
+                local args = {
+    [1] = "5c1cc93da7de4ee3b7ae59e7c08b860d",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Fruits: Consume"):FireServer(unpack(args))
+                wait(301)
+            end
+  	end    
+})
+
+farm01Tab:AddButton({
+	Name = "Button!",
+	Callback = function()
+      		while true do
+                local args = {
+    [1] = "31cf23cb483849aface08ae2866dea2b",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Fruits: Consume"):FireServer(unpack(args))
+                wait(301)
+            end
+  	end    
+})
+
+farm01Tab:AddButton({
+	Name = "Button!",
+	Callback = function()
+      		while true do
+                local args = {
+    [1] = "26c4f46050f3435189b7ab7487b6681b",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Fruits: Consume"):FireServer(unpack(args))
+                wait(301)
+            end
+  	end    
+})
+
+OrionLib:Init()
+
+
